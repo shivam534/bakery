@@ -1,0 +1,49 @@
+img {
+    width: 100px;
+    height: 100px;
+    transition: 0.5s;
+}
+.detail{
+    display: flex;
+    
+}
+img:hover{
+    transform: scale(1.2);
+  
+}
+.cont{
+    margin-left: 50px;
+    width: 75%;
+}
+.cost
+{
+    float: left;
+} 
+.total
+{
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:786px)
+{
+    .cont
+    {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    #p{
+        font-size: 15px;
+    }
+}
